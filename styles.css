@@ -7,7 +7,7 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 
 body {
@@ -17,6 +17,16 @@ body {
     color: #262626;
     padding-bottom: 1rem;
 }
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.profile-header {
+    display: flex;
+    align-items: center;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -69,11 +79,26 @@ body {
     padding-top: 12px;
     margin-bottom: 1rem;
 }
+<<<<<<< HEAD
 .container> div{
     flex:1 ;
 }
 
 .profile-user-settings {
+=======
+.profile-user-settings{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 10px;
+    justify-content: left;
+    flex-wrap: wrap;
+    cursor: pointer;
+    position: relative;
+    flex-shrink: calc(30%);
+}
+.profile-user-name{
+>>>>>>> bca15901d979507a653f142a42af10556bfa7fd4
     display: flex;
     align-items: center;
     top: 50%;
@@ -87,6 +112,7 @@ body {
 .profile-user-name{
     font-size: 24px;
     font-weight: normal;
+<<<<<<< HEAD
     position: relative;
     margin-right: 20px;
 }
@@ -116,12 +142,64 @@ body {
     margin-left:auto;
     top: auto;
     align-content: center;
+=======
+    justify-self: right;
+    position:absolute;
+}
+.profile-user-name{
+    margin-bottom: 150px;
+    left: 100px;  
+}
+.profile-edit-btn{
+    display: flex;
+    justify-self: right;
+    position: absolute;
+    cursor: pointer;
+}
+
+.profile-edit-btn{
+    margin-bottom: 150px; 
+    left: 250px;
+}
+.profile-settings-btn{
+    display: flex;
+    justify-self: right;
+    position: absolute;
+    cursor: pointer;
+}
+.profile-settings-btn{
+    margin-bottom: 150px;
+    left: 310px;
+}
+.profile-stats{
+    display: flex;
+    flex-direction: row;
+    justify-items: left;
+    position: absolute;
+}
+.profile-stats{
+    margin-bottom: 140px;
+    right: 1px; 
+}
+.profile-bio{
+    display: flex;
+    justify-content: left;
+    position: relative;
+}
+.profile-real-name{
+    
+
+>>>>>>> bca15901d979507a653f142a42af10556bfa7fd4
 }
 .gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+<<<<<<< HEAD
+=======
+    margin-top: auto;
+>>>>>>> bca15901d979507a653f142a42af10556bfa7fd4
 }
 
 .gallery-item {
@@ -167,4 +245,7 @@ body {
 .gallery-item:hover .gallery-item-info, .gallery-item:hover .gallery-item-type {
     opacity: 1;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> bca15901d979507a653f142a42af10556bfa7fd4
